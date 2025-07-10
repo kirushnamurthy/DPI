@@ -7,7 +7,7 @@ LIB_NAME = c_add
 
 # Compiler and flags
 CC = gcc
-CFLAGS = -fPIC -shared
+CFLAGS = -fPIC -shared -I/cadtools/questasim/include
 DPI_LIB = $(LIB_NAME).so
 
 # Simulation tools
