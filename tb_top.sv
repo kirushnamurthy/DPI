@@ -7,8 +7,8 @@ module tb_top();
   // function definition is in c file so import
 	
   import "DPI-C" context function void display();
-  // In c definition for display() function and inside display function display_in_sv() is called
-  // so context is used
+  // In c definition for display() function and inside display
+  // function display_in_sv() is called so context is used
 	
   function void display_in_sv();
     $display("\nINSIDE THE SYSTEM VERILOG FILE ACCESSING FROM C FILE");
