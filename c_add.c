@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include <svdpi.h>  // Required for DPI functions
+#include <svdpi.h>  // Required for DPI functions
 
 
 extern void display_in_sv(); // to call a method in SV from C need to use extern keyword.
